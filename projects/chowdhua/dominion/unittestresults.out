@@ -1,0 +1,46 @@
+Result for running tests:
+unittest1.c:
+File 'dominion.c'
+No executable lines
+Removing 'dominion.c.gcov'
+
+unittest2.c:
+File 'dominion.c'
+No executable lines
+Removing 'dominion.c.gcov'
+
+unittest3.c:
+File 'dominion.c'
+No executable lines
+Removing 'dominion.c.gcov'
+
+unittest4.c:
+File 'dominion.c'
+No executable lines
+Removing 'dominion.c.gcov'
+
+cardtest1.c:
+File 'dominion.c'
+No executable lines
+Removing 'dominion.c.gcov'
+
+cardtest2.c:
+For this test to pass, expect a 13 in the hand before,
+and 3 random cards in the hand after.
+Cards before: 13, -1, -1, -1, -1, 
+Cards after: 20, -1, -1, -1, -1, 
+TEST FAILED.
+File 'dominion.c'
+Lines executed:19.79% of 576
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+File 'dominion.c'
+Lines executed:19.79% of 576
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+File 'dominion.c'
+Lines executed:19.79% of 576
+Creating 'dominion.c.gcov'
+
