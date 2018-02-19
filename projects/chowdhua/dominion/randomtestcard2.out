@@ -1,0 +1,1389 @@
+Test Number: 1
+Number of hand before: 42
+Number of discard card before: 224
+Number of card before: 342
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 42
+| Discard Count: 224
+Number of discard card after: 342
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 2
+Number of hand before: 138
+Number of discard card before: 221
+Number of card before: 205
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 138
+| Discard Count: 221
+Number of discard card after: 205
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 3
+Number of hand before: 233
+Number of discard card before: 229
+Number of card before: 305
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 233
+| Discard Count: 229
+Number of discard card after: 305
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 4
+Number of hand before: 255
+Number of discard card before: 123
+Number of card before: 276
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 255
+| Discard Count: 123
+Number of discard card after: 276
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 5
+Number of hand before: 15
+Number of discard card before: 262
+Number of card before: 120
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 15
+| Discard Count: 262
+Number of discard card after: 120
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 6
+Number of hand before: 162
+Number of discard card before: 73
+Number of card before: 256
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 162
+| Discard Count: 73
+Number of discard card after: 256
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 7
+Number of hand before: 4
+Number of discard card before: 173
+Number of card before: 17
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 4
+| Discard Count: 173
+Number of discard card after: 17
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 8
+Number of hand before: 238
+Number of discard card before: 173
+Number of card before: 259
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 238
+| Discard Count: 173
+Number of discard card after: 259
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 9
+Number of hand before: 25
+Number of discard card before: 229
+Number of card before: 72
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 25
+| Discard Count: 229
+Number of discard card after: 72
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 10
+Number of hand before: 223
+Number of discard card before: 300
+Number of card before: 389
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 223
+| Discard Count: 300
+Number of discard card after: 389
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 11
+Number of hand before: 294
+Number of discard card before: 277
+Number of card before: 372
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 294
+| Discard Count: 277
+Number of discard card after: 372
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 12
+Number of hand before: 281
+Number of discard card before: 290
+Number of card before: 430
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 281
+| Discard Count: 290
+Number of discard card after: 430
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 13
+Number of hand before: 88
+Number of discard card before: 23
+Number of card before: 97
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 88
+| Discard Count: 23
+Number of discard card after: 97
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 14
+Number of hand before: 300
+Number of discard card before: 85
+Number of card before: 405
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 300
+| Discard Count: 85
+Number of discard card after: 405
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 15
+Number of hand before: 223
+Number of discard card before: 140
+Number of card before: 371
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 223
+| Discard Count: 140
+Number of discard card after: 371
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 16
+Number of hand before: 170
+Number of discard card before: 37
+Number of card before: 244
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 170
+| Discard Count: 37
+Number of discard card after: 244
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 17
+Number of hand before: 186
+Number of discard card before: 126
+Number of card before: 440
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 186
+| Discard Count: 126
+Number of discard card after: 440
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 18
+Number of hand before: 11
+Number of discard card before: 148
+Number of card before: 105
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 11
+| Discard Count: 148
+Number of discard card after: 105
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 19
+Number of hand before: 232
+Number of discard card before: 134
+Number of card before: 458
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 232
+| Discard Count: 134
+Number of discard card after: 458
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 20
+Number of hand before: 34
+Number of discard card before: 170
+Number of card before: 94
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 34
+| Discard Count: 170
+Number of discard card after: 94
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 21
+Number of hand before: 154
+Number of discard card before: 258
+Number of card before: 234
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 154
+| Discard Count: 258
+Number of discard card after: 234
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 22
+Number of hand before: 218
+Number of discard card before: 127
+Number of card before: 490
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 218
+| Discard Count: 127
+Number of discard card after: 490
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 23
+Number of hand before: 300
+Number of discard card before: 147
+Number of card before: 478
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 300
+| Discard Count: 147
+Number of discard card after: 478
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 24
+Number of hand before: 45
+Number of discard card before: 208
+Number of card before: 118
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 45
+| Discard Count: 208
+Number of discard card after: 118
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 25
+Number of hand before: 219
+Number of discard card before: 61
+Number of card before: 422
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 219
+| Discard Count: 61
+Number of discard card after: 422
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 26
+Number of hand before: 295
+Number of discard card before: 245
+Number of card before: 463
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 295
+| Discard Count: 245
+Number of discard card after: 463
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 27
+Number of hand before: 65
+Number of discard card before: 33
+Number of card before: 74
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 65
+| Discard Count: 33
+Number of discard card after: 74
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 28
+Number of hand before: 212
+Number of discard card before: 186
+Number of card before: 458
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 212
+| Discard Count: 186
+Number of discard card after: 458
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 29
+Number of hand before: 28
+Number of discard card before: 92
+Number of card before: 114
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 28
+| Discard Count: 92
+Number of discard card after: 114
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 30
+Number of hand before: 166
+Number of discard card before: 209
+Number of card before: 391
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 166
+| Discard Count: 209
+Number of discard card after: 391
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 31
+Number of hand before: 156
+Number of discard card before: 224
+Number of card before: 355
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 156
+| Discard Count: 224
+Number of discard card after: 355
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 32
+Number of hand before: 54
+Number of discard card before: 284
+Number of card before: 335
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 54
+| Discard Count: 284
+Number of discard card after: 335
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 33
+Number of hand before: 21
+Number of discard card before: 35
+Number of card before: 130
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 21
+| Discard Count: 35
+Number of discard card after: 130
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 34
+Number of hand before: 133
+Number of discard card before: 170
+Number of card before: 239
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 133
+| Discard Count: 170
+Number of discard card after: 239
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 35
+Number of hand before: 176
+Number of discard card before: 103
+Number of card before: 191
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 176
+| Discard Count: 103
+Number of discard card after: 191
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 36
+Number of hand before: 200
+Number of discard card before: 267
+Number of card before: 282
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 200
+| Discard Count: 267
+Number of discard card after: 282
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 37
+Number of hand before: 159
+Number of discard card before: 197
+Number of card before: 402
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 159
+| Discard Count: 197
+Number of discard card after: 402
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 38
+Number of hand before: 101
+Number of discard card before: 130
+Number of card before: 368
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 101
+| Discard Count: 130
+Number of discard card after: 368
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 39
+Number of hand before: 242
+Number of discard card before: 232
+Number of card before: 331
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 242
+| Discard Count: 232
+Number of discard card after: 331
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 40
+Number of hand before: 26
+Number of discard card before: 215
+Number of card before: 216
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 26
+| Discard Count: 215
+Number of discard card after: 216
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 41
+Number of hand before: 139
+Number of discard card before: 88
+Number of card before: 249
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 139
+| Discard Count: 88
+Number of discard card after: 249
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 42
+Number of hand before: 148
+Number of discard card before: 170
+Number of card before: 226
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 148
+| Discard Count: 170
+Number of discard card after: 226
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 43
+Number of hand before: 117
+Number of discard card before: 272
+Number of card before: 252
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 117
+| Discard Count: 272
+Number of discard card after: 252
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 44
+Number of hand before: 251
+Number of discard card before: 63
+Number of card before: 432
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 251
+| Discard Count: 63
+Number of discard card after: 432
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 45
+Number of hand before: 66
+Number of discard card before: 122
+Number of card before: 224
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 66
+| Discard Count: 122
+Number of discard card after: 224
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 46
+Number of hand before: 197
+Number of discard card before: 93
+Number of card before: 471
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 197
+| Discard Count: 93
+Number of discard card after: 471
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 47
+Number of hand before: 58
+Number of discard card before: 161
+Number of card before: 239
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 58
+| Discard Count: 161
+Number of discard card after: 239
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 48
+Number of hand before: 66
+Number of discard card before: 148
+Number of card before: 305
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 66
+| Discard Count: 148
+Number of discard card after: 305
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 49
+Number of hand before: 199
+Number of discard card before: 24
+Number of card before: 484
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 199
+| Discard Count: 24
+Number of discard card after: 484
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 50
+Number of hand before: 182
+Number of discard card before: 34
+Number of card before: 202
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 182
+| Discard Count: 34
+Number of discard card after: 202
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 51
+Number of hand before: 187
+Number of discard card before: 231
+Number of card before: 255
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 187
+| Discard Count: 231
+Number of discard card after: 255
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 52
+Number of hand before: 226
+Number of discard card before: 159
+Number of card before: 343
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 226
+| Discard Count: 159
+Number of discard card after: 343
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 53
+Number of hand before: 70
+Number of discard card before: 298
+Number of card before: 214
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 70
+| Discard Count: 298
+Number of discard card after: 214
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 54
+Number of hand before: 267
+Number of discard card before: 191
+Number of card before: 285
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 267
+| Discard Count: 191
+Number of discard card after: 285
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 55
+Number of hand before: 51
+Number of discard card before: 172
+Number of card before: 245
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 51
+| Discard Count: 172
+Number of discard card after: 245
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 56
+Number of hand before: 5
+Number of discard card before: 164
+Number of card before: 175
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 5
+| Discard Count: 164
+Number of discard card after: 175
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 57
+Number of hand before: 219
+Number of discard card before: 171
+Number of card before: 342
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 219
+| Discard Count: 171
+Number of discard card after: 342
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 58
+Number of hand before: 18
+Number of discard card before: 178
+Number of card before: 71
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 18
+| Discard Count: 178
+Number of discard card after: 71
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 59
+Number of hand before: 292
+Number of discard card before: 173
+Number of card before: 520
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 292
+| Discard Count: 173
+Number of discard card after: 520
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 60
+Number of hand before: 15
+Number of discard card before: 119
+Number of card before: 74
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 15
+| Discard Count: 119
+Number of discard card after: 74
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 61
+Number of hand before: 124
+Number of discard card before: 270
+Number of card before: 166
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 124
+| Discard Count: 270
+Number of discard card after: 166
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 62
+Number of hand before: 277
+Number of discard card before: 13
+Number of card before: 425
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 277
+| Discard Count: 13
+Number of discard card after: 425
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 63
+Number of hand before: 38
+Number of discard card before: 26
+Number of card before: 251
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 38
+| Discard Count: 26
+Number of discard card after: 251
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 64
+Number of hand before: 212
+Number of discard card before: 236
+Number of card before: 357
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 212
+| Discard Count: 236
+Number of discard card after: 357
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 65
+Number of hand before: 138
+Number of discard card before: 141
+Number of card before: 344
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 138
+| Discard Count: 141
+Number of discard card after: 344
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 66
+Number of hand before: 8
+Number of discard card before: 7
+Number of card before: 270
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 8
+| Discard Count: 7
+Number of discard card after: 270
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 67
+Number of hand before: 52
+Number of discard card before: 70
+Number of card before: 64
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 52
+| Discard Count: 70
+Number of discard card after: 64
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 68
+Number of hand before: 226
+Number of discard card before: 35
+Number of card before: 392
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 226
+| Discard Count: 35
+Number of discard card after: 392
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 69
+Number of hand before: 16
+Number of discard card before: 107
+Number of card before: 109
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 16
+| Discard Count: 107
+Number of discard card after: 109
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 70
+Number of hand before: 225
+Number of discard card before: 274
+Number of card before: 275
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 225
+| Discard Count: 274
+Number of discard card after: 275
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 71
+Number of hand before: 28
+Number of discard card before: 270
+Number of card before: 217
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 28
+| Discard Count: 270
+Number of discard card after: 217
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 72
+Number of hand before: 224
+Number of discard card before: 40
+Number of card before: 493
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 224
+| Discard Count: 40
+Number of discard card after: 493
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 73
+Number of hand before: 137
+Number of discard card before: 40
+Number of card before: 195
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 137
+| Discard Count: 40
+Number of discard card after: 195
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 74
+Number of hand before: 13
+Number of discard card before: 26
+Number of card before: 63
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 13
+| Discard Count: 26
+Number of discard card after: 63
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 75
+Number of hand before: 26
+Number of discard card before: 120
+Number of card before: 28
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 26
+| Discard Count: 120
+Number of discard card after: 28
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 76
+Number of hand before: 275
+Number of discard card before: 118
+Number of card before: 342
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 275
+| Discard Count: 118
+Number of discard card after: 342
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 77
+Number of hand before: 151
+Number of discard card before: 231
+Number of card before: 365
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 151
+| Discard Count: 231
+Number of discard card after: 365
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 78
+Number of hand before: 100
+Number of discard card before: 262
+Number of card before: 220
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 100
+| Discard Count: 262
+Number of discard card after: 220
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 79
+Number of hand before: 29
+Number of discard card before: 152
+Number of card before: 196
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 29
+| Discard Count: 152
+Number of discard card after: 196
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 80
+Number of hand before: 90
+Number of discard card before: 105
+Number of card before: 345
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 90
+| Discard Count: 105
+Number of discard card after: 345
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 81
+Number of hand before: 3
+Number of discard card before: 20
+Number of card before: 12
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 3
+| Discard Count: 20
+Number of discard card after: 12
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 82
+Number of hand before: 206
+Number of discard card before: 152
+Number of card before: 210
+Number of coin before: 13
+Number of action before: 1
+Number of hand after: 206
+| Discard Count: 152
+Number of discard card after: 210
+Number of coin after: 13
+Number of action after: 1
+Test failed
+
+Test Number: 83
+Number of hand before: 177
+Number of discard card before: 244
+Number of card before: 317
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 177
+| Discard Count: 244
+Number of discard card after: 317
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 84
+Number of hand before: 199
+Number of discard card before: 162
+Number of card before: 436
+Number of coin before: 12
+Number of action before: 1
+Number of hand after: 199
+| Discard Count: 162
+Number of discard card after: 436
+Number of coin after: 12
+Number of action after: 1
+Test failed
+
+Test Number: 85
+Number of hand before: 160
+Number of discard card before: 254
+Number of card before: 348
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 160
+| Discard Count: 254
+Number of discard card after: 348
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 86
+Number of hand before: 164
+Number of discard card before: 222
+Number of card before: 336
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 164
+| Discard Count: 222
+Number of discard card after: 336
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 87
+Number of hand before: 11
+Number of discard card before: 22
+Number of card before: 58
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 11
+| Discard Count: 22
+Number of discard card after: 58
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 88
+Number of hand before: 259
+Number of discard card before: 53
+Number of card before: 358
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 259
+| Discard Count: 53
+Number of discard card after: 358
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 89
+Number of hand before: 79
+Number of discard card before: 248
+Number of card before: 283
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 79
+| Discard Count: 248
+Number of discard card after: 283
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 90
+Number of hand before: 150
+Number of discard card before: 68
+Number of card before: 165
+Number of coin before: 7
+Number of action before: 1
+Number of hand after: 150
+| Discard Count: 68
+Number of discard card after: 165
+Number of coin after: 7
+Number of action after: 1
+Test failed
+
+Test Number: 91
+Number of hand before: 160
+Number of discard card before: 152
+Number of card before: 318
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 160
+| Discard Count: 152
+Number of discard card after: 318
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 92
+Number of hand before: 288
+Number of discard card before: 240
+Number of card before: 508
+Number of coin before: 9
+Number of action before: 1
+Number of hand after: 288
+| Discard Count: 240
+Number of discard card after: 508
+Number of coin after: 9
+Number of action after: 1
+Test failed
+
+Test Number: 93
+Number of hand before: 273
+Number of discard card before: 182
+Number of card before: 552
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 273
+| Discard Count: 182
+Number of discard card after: 552
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 94
+Number of hand before: 87
+Number of discard card before: 192
+Number of card before: 219
+Number of coin before: 6
+Number of action before: 1
+Number of hand after: 87
+| Discard Count: 192
+Number of discard card after: 219
+Number of coin after: 6
+Number of action after: 1
+Test failed
+
+Test Number: 95
+Number of hand before: 247
+Number of discard card before: 45
+Number of card before: 469
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 247
+| Discard Count: 45
+Number of discard card after: 469
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 96
+Number of hand before: 244
+Number of discard card before: 66
+Number of card before: 480
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 244
+| Discard Count: 66
+Number of discard card after: 480
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 97
+Number of hand before: 182
+Number of discard card before: 46
+Number of card before: 333
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 182
+| Discard Count: 46
+Number of discard card after: 333
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 98
+Number of hand before: 105
+Number of discard card before: 229
+Number of card before: 106
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 105
+| Discard Count: 229
+Number of discard card after: 106
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 99
+Number of hand before: 297
+Number of discard card before: 19
+Number of card before: 354
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 297
+| Discard Count: 19
+Number of discard card after: 354
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 100
+Number of hand before: 251
+Number of discard card before: 212
+Number of card before: 282
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 251
+| Discard Count: 212
+Number of discard card after: 282
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 101
+Number of hand before: 150
+Number of discard card before: 90
+Number of card before: 401
+Number of coin before: 11
+Number of action before: 1
+Number of hand after: 150
+| Discard Count: 90
+Number of discard card after: 401
+Number of coin after: 11
+Number of action after: 1
+Test failed
+
+Test Number: 102
+Number of hand before: 207
+Number of discard card before: 184
+Number of card before: 233
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 207
+| Discard Count: 184
+Number of discard card after: 233
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+Test Number: 103
+Number of hand before: 118
+Number of discard card before: 171
+Number of card before: 355
+Number of coin before: 14
+Number of action before: 1
+Number of hand after: 118
+| Discard Count: 171
+Number of discard card after: 355
+Number of coin after: 14
+Number of action after: 1
+Test failed
+
+Test Number: 104
+Number of hand before: 161
+Number of discard card before: 170
+Number of card before: 393
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 161
+| Discard Count: 170
+Number of discard card after: 393
+Number of coin after: 10
+Number of action after: 1
+Test failed
+
+Test Number: 105
+Number of hand before: 280
+Number of discard card before: 144
+Number of card before: 556
+Number of coin before: 8
+Number of action before: 1
+Number of hand after: 280
+| Discard Count: 144
+Number of discard card after: 556
+Number of coin after: 8
+Number of action after: 1
+Test failed
+
+Test Number: 106
+Number of hand before: 188
+Number of discard card before: 54
+Number of card before: 279
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 188
+| Discard Count: 54
+Number of discard card after: 279
+Number of coin after: 5
+Number of action after: 1
+Test failed
+
+File 'dominion.c'
+Lines executed:28.11% of 555
+Creating 'dominion.c.gcov'
+
+File 'randomtestcard2.c'
+Lines executed:97.62% of 42
+Branches executed:100.00% of 12
+Taken at least once:58.33% of 12
+Calls executed:95.83% of 24
+Creating 'randomtestcard2.c.gcov'
+

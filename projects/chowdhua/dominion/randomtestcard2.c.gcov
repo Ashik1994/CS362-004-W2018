@@ -1,0 +1,110 @@
+        -:    0:Source:randomtestcard2.c
+        -:    0:Graph:randomtestcard2.gcno
+        -:    0:Data:randomtestcard2.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://Test for village
+        -:    2:
+        -:    3:#include "dominion.h"
+        -:    4:#include "dominion_helpers.h"
+        -:    5:#include "rngs.h"
+        -:    6:#include <math.h>
+        -:    7:#include <stdio.h>
+        -:    8:#include <stdlib.h>
+        -:    9:#include <time.h>
+        -:   10:
+function main called 1 returned 100% blocks executed 97%
+        1:   11:int main() {
+        1:   12:  srand(time(NULL));
+call    0 returned 100%
+call    1 returned 100%
+        -:   13:  struct gameState G;
+        -:   14:  int i, j;
+        -:   15:  int num_players, num_card, seed1;
+        -:   16:  int hand_bef, card_before, coin_before, discard_before, action_before;
+        -:   17:  int action_after, hand_after, card_after, coin_after, discard_after;
+        1:   18:  int k[10] = {adventurer, smithy, minion, village, feast, baron, great_hall, tribute, ambassador, cutpurse};
+        1:   19:  seed1 = rand() % 100 + 10;
+call    0 returned 100%
+        -:   20:
+        1:   21:  int test_num = rand() % 500 + 50;
+call    0 returned 100%
+      107:   22:  for (i = 0; i < test_num; i++){    //Run the game in random loop between 50 and 500 times
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+      106:   23:    num_players = rand()% 2;
+call    0 returned 100%
+        -:   24:	
+      106:   25:    printf("Test Number: %d\n", i+1);
+call    0 returned 100%
+      106:   26:    j = initializeGame(num_players, k, seed1, &G);
+call    0 returned 100%
+        -:   27:
+      106:   28:    G.deckCount[num_players] = rand() % 300 + 1;
+call    0 returned 100%
+      106:   29:    G.discardCount[num_players] = rand() % 300 + 1;
+call    0 returned 100%
+      106:   30:    G.handCount[num_players] = rand() % 300 + 1;
+call    0 returned 100%
+      106:   31:    G.numActions = 1;
+        -:   32:
+      106:   33:    G.coins = rand() % 10 + 5;
+call    0 returned 100%
+      106:   34:    num_card = G.handCount[num_players] + G.deckCount[num_players];
+        -:   35:	//before using card
+      106:   36:    printf("Number of hand before: %d\n", G.handCount[num_players]);
+call    0 returned 100%
+      106:   37:    hand_bef = G.handCount[num_players];
+      106:   38:    printf("Number of discard card before: %d\n", G.discardCount[num_players]);
+call    0 returned 100%
+      106:   39:    discard_before = G.discardCount[num_players];
+      106:   40:    printf("Number of card before: %d\n", num_card);
+call    0 returned 100%
+      106:   41:    card_before = num_card;
+      106:   42:    printf("Number of coin before: %d\n", G.coins);
+call    0 returned 100%
+      106:   43:    coin_before = G.coins;
+      106:   44:    printf("Number of action before: %d\n", G.numActions);
+call    0 returned 100%
+      106:   45:    action_before = G.numActions;
+      106:   46:    j = cardEffect(village, 0, 0, 0, &G, 0, 0);
+call    0 returned 100%
+      106:   47:    num_card = G.handCount[num_players] + G.deckCount[num_players];
+        -:   48:
+        -:   49:	//after using card
+      106:   50:    printf("Number of hand after: %d\n", G.handCount[num_players]);
+call    0 returned 100%
+      106:   51:    hand_after = G.handCount[num_players];
+      106:   52:    printf("| Discard Count: %d\n", G.discardCount[num_players]);
+call    0 returned 100%
+      106:   53:    discard_after = G.discardCount[num_players];
+      106:   54:    printf("Number of discard card after: %d\n", num_card);
+call    0 returned 100%
+      106:   55:    card_after = num_card;
+      106:   56:    printf("Number of coin after: %d\n", G.coins);
+call    0 returned 100%
+      106:   57:    coin_after = G.coins;
+      106:   58:    printf("Number of action after: %d\n", G.numActions);
+call    0 returned 100%
+      106:   59:    action_after = G.numActions;
+        -:   60:	//Compare the numbers from before and after
+      106:   61:    if(coin_before==coin_after && discard_before==discard_after && card_before==card_after
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0%
+      106:   62:        && hand_bef==hand_after && action_before==action_after - 2)
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+branch  2 taken 0% (fallthrough)
+branch  3 taken 100%
+    #####:   63:      printf("Test passed\n\n");
+call    0 never executed
+        -:   64:    else
+      106:   65:      printf("Test failed\n\n");
+call    0 returned 100%
+        -:   66:  }
+        1:   67:  return 0;
+        -:   68:}
