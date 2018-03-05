@@ -1,0 +1,173 @@
+        -:    0:Source:randomtestadventurer.c
+        -:    0:Graph:randomtestadventurer.gcno
+        -:    0:Data:randomtestadventurer.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://Test for Adventurer 
+        -:    2:
+        -:    3:#include "dominion.h"
+        -:    4:#include "dominion_helpers.h"
+        -:    5:#include "rngs.h"
+        -:    6:#include <stdio.h>
+        -:    7:#include <stdlib.h>
+        -:    8:#include <string.h>
+        -:    9:#include <time.h>
+        -:   10:#include <assert.h>
+        -:   11:
+function main called 1 returned 100% blocks executed 100%
+        1:   12:int main() {
+        1:   13:    srand(time(NULL));
+call    0 returned 100%
+call    1 returned 100%
+        -:   14:	struct gameState G;
+        1:   15:	int run_times = rand() % 200 + 50;
+call    0 returned 100%
+        1:   16:	int seed = rand() % 100 + 20;
+call    0 returned 100%
+        1:   17:	int test_pass = 0, pass = 0;
+        1:   18:	int draw = 0, discard = 0;
+        1:   19:	int player = 0, random_deck, random_hand, random_card, random_card2;
+        -:   20:	int copper, silver, gold;
+        -:   21:	int bef_coin, aft_coin, bef_hand, aft_hand;
+        -:   22:	int i, j, a;
+        1:   23:	int k[10] = {adventurer, smithy, minion, village, feast, baron, great_hall, tribute, ambassador, cutpurse};
+        -:   24:   
+      214:   25:	for(i = 0; i < run_times; i++) {		//Run the Game in a loop between 200 and 50 times
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+      213:   26:		initializeGame(2, k, seed, &G);		//Initialize Game
+call    0 returned 100%
+      213:   27:		bef_coin = 0, aft_coin = 0;
+      213:   28:		random_deck = rand() % (500 + 1);
+call    0 returned 100%
+      213:   29:		random_hand = rand() % (random_deck + 1);
+call    0 returned 100%
+      213:   30:		G.deckCount[0] = random_deck - random_hand;
+      213:   31:		G.handCount[0] = random_hand;
+        -:   32:		
+      639:   33:		for(j = 0; j < 2; j++) {
+branch  0 taken 67%
+branch  1 taken 33% (fallthrough)
+    28416:   34:			for(a = 0; a < G.deckCount[j]; a++) {
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    27990:   35:				random_card = rand() % 51;
+call    0 returned 100%
+    27990:   36:				if(random_card==1)
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
+      527:   37:					G.deck[j][a] = copper;
+    27463:   38:				else if(random_card==2)
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
+      582:   39:					G.deck[j][a] = silver;
+    26881:   40:				else if(random_card==3)
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
+      569:   41:					G.deck[j][a] = gold;
+        -:   42:				else{
+    26312:   43:					random_card2 = rand() % 10;
+call    0 returned 100%
+    26312:   44:					G.deck[j][a] = k[random_card2];
+        -:   45:				}
+        -:   46:			}
+        -:   47:		}
+    25245:   48:		for(j = 0; j < G.handCount[player]; j++){
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    25032:   49:			if(G.hand[player][j] == copper || G.hand[player][j] == silver || G.hand[player][j] == gold)
+branch  0 taken 91% (fallthrough)
+branch  1 taken 9%
+branch  2 taken 97% (fallthrough)
+branch  3 taken 3%
+branch  4 taken 1% (fallthrough)
+branch  5 taken 99%
+     2997:   50:				bef_coin += 1;
+        -:   51:		}
+        -:   52:		//Check coins and hand before drawing the card
+      213:   53:    printf("\n");
+call    0 returned 100%
+      213:   54:    printf("Coins before the card: %d\n", bef_coin);
+call    0 returned 100%
+      213:   55:    bef_hand = G.handCount[G.whoseTurn];
+      213:   56:    printf("Hand before the card: %d\n", bef_hand);
+call    0 returned 100%
+      213:   57:		cardEffect(adventurer, 0, 0, 0, &G, 0, 0);
+call    0 returned 100%
+     5420:   58:		for(j = 0; j < G.handCount[player]; j++) {
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+     5207:   59:			if(G.hand[player][j] == copper || G.hand[player][j] == silver || G.hand[player][j] == gold)
+branch  0 taken 92% (fallthrough)
+branch  1 taken 8%
+branch  2 taken 96% (fallthrough)
+branch  3 taken 4%
+branch  4 taken 1% (fallthrough)
+branch  5 taken 99%
+      614:   60:				aft_coin += 1;
+        -:   61:		}
+        -:   62:		//check coins and hand after drawing the card
+      213:   63:    printf("Coins after the card: %d\n", aft_coin);
+call    0 returned 100%
+      213:   64:    bef_hand = G.handCount[G.whoseTurn];
+      213:   65:    printf("Hand after the card: %d\n", aft_hand);
+call    0 returned 100%
+      213:   66:    printf("\n");
+call    0 returned 100%
+      213:   67:		copper = 0, silver = 0, gold = 0;
+    45451:   68:		for(j = 0; j < G.discardCount[player]; j++) {
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    45238:   69:			if(G.discard[player][j]==copper)
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+      349:   70:				copper += 1;
+    44889:   71:			else if(G.discard[player][j]==silver)
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+      272:   72:				silver += 1;
+    44617:   73:			else if(G.discard[player][j]==gold)
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+      248:   74:				gold += 1;
+        -:   75:		}
+        -:   76:		//compare before and after the card is drawn
+      213:   77:		pass = 1;
+      213:   78:		if(aft_coin != (bef_coin + 2) || aft_coin < bef_coin) {
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+branch  2 taken 0% (fallthrough)
+branch  3 taken 100%
+      211:   79:			draw++;
+      211:   80:			pass = 0;
+        -:   81:		}
+      213:   82:		if(gold != 0 || silver != 0 || copper != 0) {
+branch  0 taken 17% (fallthrough)
+branch  1 taken 83%
+branch  2 taken 86% (fallthrough)
+branch  3 taken 14%
+branch  4 taken 22% (fallthrough)
+branch  5 taken 78%
+      188:   83:			discard++;
+      188:   84:			pass = 0;
+        -:   85:		}
+      213:   86:		if(pass == 1)
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+        2:   87:			test_pass++;
+        -:   88:	}
+        1:   89:	printf(" \n");
+call    0 returned 100%
+        1:   90:	printf("Final results for Adventurer Card\n");
+call    0 returned 100%
+        1:   91:	printf("Test Passed: %d\n", test_pass);
+call    0 returned 100%
+        1:   92:	printf("Draw failed: %d\n", draw);
+call    0 returned 100%
+        1:   93:	printf("Discard failed: %d\n", discard);
+call    0 returned 100%
+        1:   94:	printf("\n");
+call    0 returned 100%
+        -:   95:	
+        1:   96:	return 0;
+        -:   97:}

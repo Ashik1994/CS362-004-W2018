@@ -1,0 +1,135 @@
+        -:    0:Source:randomtestcard1.c
+        -:    0:Graph:randomtestcard1.gcno
+        -:    0:Data:randomtestcard1.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://SMITHY RANDOM TEST
+        -:    2:
+        -:    3:#include<stdio.h>
+        -:    4:#include<stdlib.h>
+        -:    5:#include <assert.h>
+        -:    6:#include "dominion.h"
+        -:    7:#include "dominion_helpers.h"
+        -:    8:#include "rngs.h"
+        -:    9:#include <time.h>
+        -:   10:
+function test_smithy called 211 returned 100% blocks executed 100%
+      211:   11:void test_smithy(struct gameState *G) {
+        -:   12:  int i, play;
+      211:   13:  G->whoseTurn = rand() % 2;
+call    0 returned 100%
+        -:   14:  //generate random values for number of hand, deck and discard
+      211:   15:  int max_hand = rand() % (400 + 1);
+call    0 returned 100%
+      211:   16:  int max_turn = rand() % (16 + 1);
+call    0 returned 100%
+      211:   17:  int max_deck = rand() % (400 + 1);
+call    0 returned 100%
+      211:   18:  int max_discard = rand() % (400 + 1);
+call    0 returned 100%
+        -:   19:
+      211:   20:  G->hand[G->whoseTurn][0]= 7;
+      211:   21:  G->handCount[G->whoseTurn]=max_hand;
+    41099:   22:  for (i = 1;i < G->handCount[G->whoseTurn];i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    40888:   23:    G->hand[G->whoseTurn][i]=max_turn;
+        -:   24:
+      211:   25:  G->deckCount[G->whoseTurn]=max_deck;
+    40410:   26:  for (i = 0;i < G->deckCount[G->whoseTurn];i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    40199:   27:    G->deck[G->whoseTurn][i]=max_turn;
+        -:   28:
+      211:   29:  G->discardCount[G->whoseTurn]=max_discard;
+    41878:   30:  for (i = 0;i < G->discardCount[G->whoseTurn];i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    41667:   31:    G->discard[G->whoseTurn][i]=max_turn;
+        -:   32:
+        -:   33://set up the hand for opponent
+      211:   34:  if (G->whoseTurn==0)
+branch  0 taken 52% (fallthrough)
+branch  1 taken 48%
+      110:   35:    play = 1;
+        -:   36:  else
+      101:   37:    play = 0;
+        -:   38:
+      211:   39:  G->handCount[play] = max_hand;
+    41310:   40:  for (i = 0; i < G->handCount[play]; i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    41099:   41:    G->hand[play][i] = max_turn;
+        -:   42:
+      211:   43:  G->deckCount[play] = max_deck;
+    40410:   44:  for (i = 0; i < G->deckCount[play]; i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    40199:   45:    G->deck[play][i] = max_turn;
+        -:   46:
+      211:   47:  G->discardCount[play] = max_discard;
+    41878:   48:  for (i = 0; i < G->discardCount[play]; i++)
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+    41667:   49:    G->discard[play][i] = max_turn;
+      211:   50:}
+        -:   51:
+function main called 1 returned 100% blocks executed 95%
+        1:   52:int main() {
+        1:   53:	int counter = 1;
+        1:   54:	srand(time(NULL));
+call    0 returned 100%
+call    1 returned 100%
+        1:   55:	int seed = rand() % 100 + 1;
+call    0 returned 100%
+        1:   56:  int run_times = rand() % 500 + 50;
+call    0 returned 100%
+        1:   57:	int number_players = 2;
+        -:   58:  int hand_before, hand_after;
+        -:   59:	struct gameState G;
+        1:   60:	int k[10] = {adventurer, smithy, minion, village, feast, baron, great_hall, tribute, ambassador, cutpurse};
+        1:   61:	initializeGame(number_players, k, seed, &G);
+call    0 returned 100%
+        1:   62:	G.phase = 0;
+        1:   63:	G.numBuys = 1;
+        -:   64:	//Run the game in random loop between 50 and 500 times
+        -:   65:	int a;
+      212:   66:	for(a = 0; a < run_times; a++){
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+        -:   67:	
+      211:   68:    printf("\n");
+call    0 returned 100%
+      211:   69:    printf("Random_test number %d\n", counter);
+call    0 returned 100%
+      211:   70:		test_smithy(&G);
+call    0 returned 100%
+        -:   71:		struct gameState dominion;
+      211:   72:		dominion = G;
+        -:   73:  //record the number before card is drawn
+      211:   74:    printf("Number of hand before: %d\n", G.handCount[G.whoseTurn]);
+call    0 returned 100%
+      211:   75:    hand_before = G.handCount[G.whoseTurn];
+      211:   76:		cardEffect(smithy, 0, 0, 0, &G, 0, 0);
+call    0 returned 100%
+        -:   77: //record the number after card is drawn
+      211:   78:    printf("Number of hand after: %d\n", G.handCount[G.whoseTurn]);
+call    0 returned 100%
+      211:   79:    hand_after = G.handCount[G.whoseTurn];
+      211:   80:    if (hand_before == hand_after - 2)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+    #####:   81:      printf("Test passed \n\n");
+call    0 never executed
+        -:   82:    else {
+      211:   83:      printf("Test failed \n");
+call    0 returned 100%
+      211:   84:      printf("Number of hand (expected): %d\n", hand_after - 1);
+call    0 returned 100%
+      211:   85:      printf("Number of hand: %d\n\n", hand_after);
+call    0 returned 100%
+        -:   86:    }
+      211:   87:		counter++;
+        -:   88:	}
+        1:   89:  return 0;
+        -:   90:}

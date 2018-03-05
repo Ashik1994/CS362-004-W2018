@@ -1,0 +1,11 @@
+randomtestcard2.c:
+File 'dominion.c'
+Lines executed:21.10% of 564
+Creating 'dominion.c.gcov'
+
+File 'randomtestcard2.c'
+No executable lines
+No branches
+No calls
+Removing 'randomtestcard2.c.gcov'
+

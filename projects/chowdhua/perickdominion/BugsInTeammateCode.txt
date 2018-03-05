@@ -1,0 +1,90 @@
+1. Bug in Smithy Card:
+	I ran my randomtestcard1.c file which runs the game and test the function of smithy card. Here are the results for the last few tests: 
+
+Random_test number 179
+Number of hand before: 224
+Number of hand after: 227
+Test failed
+Number of hand (expected): 226
+Number of hand: 227
+
+Random_test number 180
+Number of hand before: 1
+Number of hand after: 4
+Test failed
+Number of hand (expected): 3
+Number of hand: 4
+
+Random_test number 181
+Number of hand before: 355
+Number of hand after: 358
+Test failed
+Number of hand (expected): 357
+Number of hand: 358
+
+File 'dominion.c'
+Lines executed:23.23% of 564
+Creating 'dominion.c.gcov'
+File 'randomtestcard1.c'
+Lines executed:98.21% of 56
+Branches executed:100.00% of 18
+Taken at least once:94.44% of 18
+Calls executed:95.00% of 20
+Creating 'randomtestcard1.c.gcov'
+
+As we can see from all the tests, the number of hand is always 1 greater than the expected number of hands, as a result the test always failed. This indicates that there is a bug in the part of the code which is responsible for drawing a new card adding it to the hand. After running the test I compared the code of my partner with the original dominion code and I found out that my predictions were correct. There was a bug in the code which makes the Smithy card function add 4 cards instead of 3. On line 733 of the dominion code the for loop goes from 0 to 4 instead of going from 0 to 3. This shows that my test code worked and I was successfully able to find the bug in my teammate’s code. The code can be fixed by changing the code on line 733 from “for (i = 0; i < 4; i++)” to “for (i = 0; i < 3; i++)”
+
+2. Bug in Village Code
+I ran my randomtestcard1.c file which runs the game and test the function of village card. Here are the results for the last few tests:
+
+Test Number: 513
+Number of hand before: 135
+Number of discard card before: 104
+Number of card before: 264
+Number of coin before: 5
+Number of action before: 1
+Number of hand after: 136
+| Discard Count: 104
+Number of discard card after: 264
+Number of coin after: 5
+Number of action after: 4
+Test failed
+
+Test Number: 514
+Number of hand before: 153
+Number of discard card before: 208
+Number of card before: 207
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 154
+| Discard Count: 208
+Number of discard card after: 207
+Number of coin after: 10
+Number of action after: 4
+Test failed
+
+Test Number: 515
+Number of hand before: 159
+Number of discard card before: 72
+Number of card before: 437
+Number of coin before: 10
+Number of action before: 1
+Number of hand after: 160
+| Discard Count: 72
+Number of discard card after: 437
+Number of coin after: 10
+Number of action after: 4
+Test failed
+
+File 'dominion.c'
+Lines executed:28.11% of 555
+Creating 'dominion.c.gcov'
+
+File 'randomtestcard2.c'
+Lines executed:97.62% of 42
+Branches executed:100.00% of 12
+Taken at least once:58.33% of 12
+Calls executed:95.83% of 24
+Creating 'randomtestcard2.c.gcov'
+
+As we can see from the test results the number of hand increases by 1 and the number of coins increases by 3 after the card village is called through the cardeffect function. The feature of the village card indicates that the number of coins should be increased by 2 rather than 3. This indicates that there is a bug in the village function which increases the number of action by 3 rather than 2. After looking at the code my conclusion was right, in line 823 it says state->numActions += 3;   whereas it should be state->numActions += 2;. This is how I found the second bug in my teammate’s code. The code can be fixed by changing line 823 from state->numActions += 3 to state->numActions += 2;.
